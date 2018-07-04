@@ -12,5 +12,4 @@ class TestDrink < Minitest::Test
     drink = Drink.new("Beer", 4)
     assert_equal(4, drink.price())
   end
-
 end

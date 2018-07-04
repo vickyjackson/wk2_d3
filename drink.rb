@@ -11,5 +11,5 @@ class Drink
   end
 
   # Class methods
-
+    # Nothing here!
 end

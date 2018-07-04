@@ -24,6 +24,7 @@ class TestCustomer < Minitest::Test
     assert_equal(1, @customer.drinks)
   end
 
+# Integration! 
   def test_customer_buys_drink()
     @customer.customer_buys_drink(@pub, @drink1)
     assert_equal(6, @customer.wallet())

@@ -14,7 +14,6 @@ class Customer
     end
 
     # Class methods
-
     def add_drink_to_customer()
       @drinks += 1
     end

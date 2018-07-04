@@ -26,7 +26,7 @@ class TestPub < Minitest::Test
 
   def test_remove_drink_from_pub()
     @pub.remove_drink_from_pub()
-    assert_equal(2, @pub.drinkstock.length)
+    assert_equal(2, @pub.drinkstock.length())
   end
 
   def test_add_money_to_till()

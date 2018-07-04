@@ -15,11 +15,6 @@ class Pub
     end
 
     # Class methods
-
-    def count_drinks_in_drinkstock()
-      return @drinkstock.length()
-    end
-
     def remove_drink_from_pub()
       @drinkstock.pop
     end
